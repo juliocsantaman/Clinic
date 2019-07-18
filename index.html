@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bootstrap-4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/fontawesome-free-5.6.3-web/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon-clinica.png">
+    <title>Centro Médico Santaman</title>
+</head>
+<body>
+    
+    <div class="container-fluid bg-light">
+
+        <!-- HEADER -->
+        <div class="row bg-dark">
+            <div class="col">
+                <header>
+                    
+                    <nav class="navbar navbar-expand-lg navbar-dark ">
+        
+                            
+                        <a class="navbar-brand" href="index.html"><img class="tamanio_img_header" src="img/img-header.jpg" alt=""></a>
+        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my_collapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="my_collapse">
+                                    
+                            <ul class="navbar-nav mr-auto">
+            
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="index.html"> <span class="fas fa-heart"></span> Inicio</a>
+                                </li>
+            
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fas fa-medkit"></span> Servicios</a>
+            
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="servicios/medicina-general.html">Medicina General</a>
+                                            <a class="dropdown-item" href="#">Enfermedades del Corazón</a>
+                                            <a class="dropdown-item" href="#">Oftalmología</a>
+                                            <a class="dropdown-item" href="#">Oncología</a>
+                                            <a class="dropdown-item" href="#">Ginecología</a>
+                                            <a class="dropdown-item" href="#">Neurología</a>
+                                            <a class="dropdown-item" href="#">Laboratorio</a>
+                                            <a class="dropdown-item" href="#">Odontología General</a>
+                                            <a class="dropdown-item" href="#">Ozonoterapia</a>
+                                            <a class="dropdown-item" href="#">Ortopedía y Traumatología</a>
+                                            <a class="dropdown-item" href="#">Fisioterapia y Rehabilitación</a>
+                                            <a class="dropdown-item" href="#">Psicología</a>
+                                            <a class="dropdown-item" href="#">Pediatría</a>
+                                            <a class="dropdown-item" href="#">Imagen, Radiología y Ultrasonido</a>
+                                        </div>
+            
+                                    </li>
+            
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fas fa-hospital"></span> Clínicas</a>
+            
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Leona Vicario</a>
+                                            <a class="dropdown-item" href="#">Niños Heroes</a>
+                                            <a class="dropdown-item" href="#">Puerto Morelos</a>
+                                        </div>
+            
+                                    </li>
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> <span class="fas fa-stethoscope"></span> Atención a clientes</a>
+                                    </li>
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> <span class="fas fa-user-md"></span> Especialistas</a>
+                                    </li>
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Boletínes</a>
+                                    </li>
+                                    </ul>
+                                </div>
+                               
+                            </nav>
+        
+                        </header>              
+            </div>
+        </div>
+
+        <!-- BODY -->
+        <!-- SLIDESHOW -->
+        
+        <div class="row">
+            <div class="col">
+                <div id="my_carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    
+                    <!-- INDICADORES -->
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#my_carousel" data-slide-to="1"></li>
+                        <li data-target="#my_carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- LAS IMAGENES DEL SLIDESHOW -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <img src="img/img-slideshow/img-slideshow-1.jpg" class="d-block tamanio_img_slideshow" alt="">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Primera Imagen</h5>
+                                <p>Esto es nuestra primera imagen cool</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="img/img-slideshow/img-slideshow-2.jpg" class="d-block tamanio_img_slideshow" alt="">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Segunda Imagen</h5>
+                                <p>Esto es nuestra segunda imagen cool</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-interval="5000">
+                            <img src="img/img-slideshow/img-slideshow-3.png" class="d-block tamanio_img_slideshow" alt="">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tercera Imagen</h5>
+                                <p>Esto es nuestra tercera imagen cool</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTROLES DEL SLIDESHOW -->
+                        <a class="carousel-control-prev" href="#my_carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#my_carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- AQUÍ TERMINA MI SLIDESHOW -->
+
+        <div class="row">
+            <div class="col">
+                <section>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis odio quisquam pariatur labore molestiae nihil, illo laboriosam architecto numquam sit quibusdam laborum sequi ullam doloremque tempore quod est! Numquam ullam, dolor animi debitis impedit pariatur exercitationem consequatur iure libero inventore repellat doloremque temporibus vitae aliquid consectetur corporis accusantium sed non repudiandae, cum corrupti magni odio molestiae! Dicta, ab recusandae. Exercitationem veniam recusandae quis accusantium voluptate dolorum doloribus ea porro rerum non animi eum similique excepturi fugiat cupiditate quia error ex tenetur molestiae quas magni, cum placeat nihil autem. Provident aliquid ea unde corporis nostrum sint. Dolore iure ratione sequi culpa officiis iusto corrupti consectetur, tempora mollitia accusamus earum. Vel repellat officiis voluptatem aut pariatur beatae culpa veritatis maxime explicabo amet labore nulla, consectetur nam rerum repudiandae sapiente, architecto tempora dolorum. Culpa nulla quis corporis magni consectetur iure ipsa molestias, necessitatibus obcaecati ratione, distinctio non quos possimus quisquam. Officia exercitationem accusamus, nam obcaecati dolorem esse non sed ea laboriosam corrupti eum voluptate qui necessitatibus voluptatum quas eaque, temporibus, dolores molestiae minus quam ex odio nesciunt. Mollitia vel voluptates ipsum cupiditate architecto ratione assumenda, dicta eum facere velit at nulla incidunt aspernatur veniam eveniet, eaque, molestiae explicabo. Ab quidem quia quod cupiditate vero architecto dolorem perferendis unde, quam, nihil eveniet iure tenetur ipsa veniam similique pariatur quae dolores inventore aspernatur quasi, minus autem libero impedit magnam? Voluptatibus error adipisci ullam veritatis eaque natus provident sunt, ex aliquam odit hic eos deserunt, nemo velit dolores reprehenderit inventore! Quo modi voluptatibus iusto molestiae molestias cupiditate amet illum, suscipit odit dolores eaque inventore, eius cumque culpa. Aut magnam pariatur fuga voluptatum maxime! Dolorem voluptatum perspiciatis assumenda ex iure officiis quam fugit, animi vel, laudantium ducimus. Atque, ullam modi quae ratione facilis qui accusantium, necessitatibus voluptates porro a natus quidem assumenda blanditiis odit, vero veritatis quibusdam? A aliquam atque accusamus qui maiores! Eos nisi aspernatur maiores veniam ad dicta. Vero laudantium ipsum consectetur porro facere! Temporibus nulla, sit quaerat corrupti earum, delectus corporis culpa quos architecto quis possimus aspernatur natus consequatur! Dolore illum sit doloribus voluptates ducimus assumenda, expedita iure quos sint maxime repellat magni officiis! Earum magnam beatae impedit commodi debitis delectus blanditiis molestias nesciunt veniam ut rerum non qui cumque sequi mollitia accusamus eveniet ratione libero vel, esse error quidem placeat. Quisquam quibusdam fugit quasi alias minus vitae in aut, autem modi odio unde? Possimus et at facilis repudiandae officiis ducimus maxime nam quasi, laboriosam ex quia maiores nostrum ipsum explicabo cum ea fugiat ipsa cumque ut distinctio. Totam, corrupti repellat, placeat molestiae fugiat amet velit, dignissimos earum ipsum officiis similique id sunt. Aliquid, possimus! Obcaecati, deleniti nostrum officiis incidunt tempore nihil modi voluptatibus similique rem! Aliquid illo dicta voluptate libero? Animi eveniet blanditiis quisquam ea sapiente ad consectetur exercitationem ipsa officiis ex quas natus, voluptas adipisci! Nisi voluptatibus sit recusandae illum minima eveniet dolorem, itaque nam maiores? Voluptatem beatae, corporis et impedit non iure amet porro commodi odio officia quam perspiciatis pariatur fuga nesciunt consequatur dolores? Tempora facere neque magni sequi culpa obcaecati?</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row bg-info text-center">
+            <div class="col">
+                <footer>
+                    <small class="text-light">2018 CENTRO MÉDICO SANTAMAN - Todos los derechos reservados</small>
+                </footer>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap-4.2.1/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap-4.2.1/js/popper.min.js"></script>
+    <script src="bootstrap-4.2.1/js/bootstrap.min.js"></script>
+</body>
+</html>
